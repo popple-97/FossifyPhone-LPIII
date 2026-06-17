@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible">
+        tools:visibility="gone">
 
         <ImageView
             android:id="@+id/imageView"
@@ -62,6 +62,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/activity_margin"
         android:contentDescription="@null"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/caller_name_label"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -171,7 +172,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_begin="168dp" />
+        <!---  This is static now, but this build is only for LPIII. Eh.  -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ongoing_call_holder"
@@ -467,10 +469,10 @@
 
             <org.fossify.commons.views.MyEditText
                 android:id="@+id/dialpad_input"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/medium_margin"
-                android:layout_marginEnd="@dimen/medium_margin"
+                android:layout_width="219dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="7dp"
                 android:layout_toEndOf="@id/dialpad_close"
                 android:layout_toStartOf="@+id/dialpad_clear_char"
                 android:gravity="center"
@@ -503,9 +505,9 @@
 
     <ImageView
         android:id="@+id/call_end"
-        android:layout_width="@dimen/call_control_button_size"
-        android:layout_height="@dimen/call_control_button_size"
-        android:layout_marginBottom="@dimen/end_call_button_margin"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/end_call"
         android:elevation="@dimen/big_margin"
         android:src="@drawable/ic_call_end"
