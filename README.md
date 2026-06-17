@@ -1,7 +1,11 @@
-# Fossify Phone
+# Fossify Phone *for Light Phone III*
 <img alt="Logo" src="graphics/icon.webp" width="120" />
 
-<a href='https://play.google.com/store/apps/details?id=org.fossify.phone'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height=80/></a> <a href="https://f-droid.org/packages/org.fossify.phone/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on-en.svg" alt="Get it on F-Droid" height=80/></a> <a href="https://apt.izzysoft.de/fdroid/index/apk/org.fossify.phone"><img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" alt="Get it on IzzyOnDroid" height=80/></a>
+This fork is meant for build by full-Android Light Phone III users who experience issues with Fossify's in-call menu screen. This build tweaks a few UI dimensions and hides the callers-on-hold UI ribbon at the top of the screen in favor of actually being able to view and use all the buttons while on a call.
+
+No release builds are provided here to prevent mistakenly installing on any phones besides the Light Phone III. Also because I'm pretty new to GitHub workflows, admittedly.
+
+---
 
 Empower your calls, and safeguard your data. Fossify Phone redefines the mobile app experience with unmatched privacy and efficiency. Free from ads and intrusive permissions, it's designed for seamless and secure everyday communication.
 
@@ -27,8 +31,3 @@ Download the Fossify Phone App now and step into a mobile world where privacy se
 ➡️ Join the community on Reddit: https://www.reddit.com/r/Fossify<br>
 ➡️ Connect on Telegram: https://t.me/Fossify
 
-<div align="center">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="30%">
-<img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="30%">
-</div>
